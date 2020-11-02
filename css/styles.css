@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 3rem 5rem;
+  background-color: whitesmoke; }
+
+.header__container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.header__img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center; }
+
+.header__sidebar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 2rem auto; }
+
+.header__ul {
+  display: flex; }
+
+.header__li {
+  list-style: none; }
+
+.header__a {
+  margin: auto 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  content: "";
+  width: 5%;
+  transition: .5s; }
+
+.header__a:hover {
+  color: greenyellow;
+  transition: 0.2s ease-in;
+  width: 15%;
+  border-bottom: springgreen 1px solid;
+  transition: border-bottom 1s ease-in; }
+
+.header__head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 10rem auto; }
+
+.header__h1 {
+  font-size: 3rem;
+  margin: 1rem auto; }
+
+.header__p {
+  font-size: 2rem; }
+
+.sinergates {
+  background-color: steelblue;
+  width: 100%;
+  height: 14vh; }
+  .sinergates__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .sinergates__text {
+    display: flex;
+    justify-content: center;
+    justify-items: center; }
+  .sinergates__h1 {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-items: center;
+    margin: 1rem 3rem;
+    font-size: 3rem; }
+  .sinergates__icons {
+    display: flex; }
+  .sinergates__icon {
+    display: flex;
+    max-width: 150px;
+    margin: 0.5rem 5rem; }
+
+.services {
+  margin: 4rem auto; }
+  .services__container {
+    display: flex; }
+  .services__row {
+    display: flex;
+    flex-direction: row; }
+  .services__column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto 1rem; }
+  .services__icon {
+    display: flex;
+    justify-items: center;
+    justify-content: center; }
+  .services__text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem auto; }
+  .services__text1 {
+    display: flex;
+    text-align: left;
+    margin: auto 1rem; }
+  .services__text2 {
+    display: flex;
+    text-align: center;
+    margin: auto 1rem; }
+  .services__text3 {
+    display: flex;
+    text-align: right;
+    margin: 1rem  1rem; }
